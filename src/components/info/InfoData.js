@@ -36,7 +36,7 @@ export const homeObjectThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'Join the family',
-  headLine: "We can't wait to have you joing the trvlr family!",
+  headLine: "We can't wait to have you join the trvlr family!",
   description: "Oh, and we'll see you there ; )",
   buttonLabel: 'Join the Family',
   imgStart: false,
