@@ -1,11 +1,27 @@
 import React from 'react';
+import { FormContent, Container, FormWrap, Icon, Form, FormH1, FormLabel, FormInput, Text, FormButton } from './SignInElements';
 
 const SignIn = () => {
 
   return (
-    <div>
-      <h1>Sign in page</h1>
-    </div>
+    <>
+      <Container>
+        <FormWrap>
+          <Icon to='/'>dolla</Icon>
+          <FormContent>
+            <Form action='#'>
+              <FormH1>Sign in to your account</FormH1>
+              <FormLabel htmlFor='for'>Email</FormLabel>
+              <FormInput type='email' required />
+              <FormLabel htmlFor='for'>Password</FormLabel>
+              <FormInput type='password' required />
+              <FormButton>Submit</FormButton>
+              <Text>Forgot password?</Text>
+            </Form>
+          </FormContent>
+        </FormWrap>
+      </Container>
+    </>
   )
 };
 
