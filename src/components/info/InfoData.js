@@ -31,18 +31,18 @@ export const homeObjectTwo = {
   darkText: true
 };
 export const homeObjectThree = {
-  id: 'services',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  id: 'signup',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Join the family',
   headLine: "We can't wait to have you joing the trvlr family!",
-  description: "Oh, and we'll see you at the beach ; )",
+  description: "Oh, and we'll see you there ; )",
   buttonLabel: 'Join the Family',
   imgStart: false,
   img: require('../../images/svg4.svg'),
   alt: 'about image',
-  dark: true,
-  primary: true,
-  darkText: false
+  dark: false,
+  primary: false,
+  darkText: true
 };

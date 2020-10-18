@@ -6,6 +6,7 @@ import HeroSection from '../hero/HeroSection';
 import Info from '../info/Info';
 import { homeObjectOne, homeObjectTwo, homeObjectThree } from '../info/InfoData';
 import Services from '../services/Services';
+import Footer from '../shared/Footer';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -23,6 +24,7 @@ const Home = () => {
       <Info {...homeObjectTwo}/>
       <Services />
       <Info {...homeObjectThree}/>
+      <Footer />
     </>
   )
 }
